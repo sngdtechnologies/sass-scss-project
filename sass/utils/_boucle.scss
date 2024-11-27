@@ -1,0 +1,5 @@
+@each $couleur, $value in $couleurs {
+    .article__heading--#{$couleur} {
+        background-color: $value;
+    }
+}
